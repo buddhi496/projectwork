@@ -1,0 +1,470 @@
+/*for fonts*/
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nebula';
+  src: url('nebula.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sacramento';
+  src: url('Sacramento.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Prosto';
+  src: url('prosto.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('rubik.ttf') format('truetype');
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*for navigation*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 5em;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 1.5em;
+  font-size: 23px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bodey{
+  display: flex;
+  justify-content: space-between;
+}
+
+img{
+  max-height: 55em;
+  max-width: auto;
+}
+/*for text in paregraph tag*/
+.text{
+  padding-left: 7em;
+  padding-top: 5em;
+}
+
+.text .head{
+  font-size: 90px;
+  color: blue;
+}
+
+.paregraph{
+  font-size: 25px;
+}
+
+/*for button*/
+.bt{
+  height: 60px;
+  width: 15em;
+  background-color: #00008B;
+  color: white;
+}
+
+/*for fonts*/
+.fonts{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2em 9em;
+}
+
+.fonts li{
+    padding: 2em 5em;
+}
+
+.fonts .nebula{
+  font-family: 'nebula', sans-serif;
+  color: black;
+}
+
+.fonts .prosto{
+  font-family: 'prosto', sans-serif;
+  color: black;
+}
+
+.fonts .rubik{
+  font-family: 'rubik', sans-serif;
+  color: black;
+}
+
+.fonts .sacramento{
+  font-family: 'Sacramento', sans-serif;
+  color: black;
+}
+
+/*for about us*/
+.aboutus{
+  display: flex;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5em;
+  padding-top: 16em;
+}
+
+.about .au{
+  font-size: 60px;
+}
+
+.about .paregraph{
+  padding-top: 10px;
+}
+
+.aboutus .us img{
+  max-height: 55em;
+  max-width: 1300px;
+}
+
+.btn {
+  position: relative;
+  height: 75px;
+  width: 15em;
+  background-color: #00008B;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn::after {
+  content: "⟶";
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+/*for cities members and projects section*/
+.cmp{
+  height: 30em;
+  background-color: rgb(0 0 255 / 49%); 
+/*  rgba(red green blue and opacity)*/
+  margin: 5em 0 0em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20em 0 20em;
+}
+
+.cmp .box{
+  height: 15em;
+  width: 15em;
+  background-color: white;
+}
+
+.number{
+  text-align: center;
+  padding-top: 50px;
+}
+.cmp .box .num{
+  font-size: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.cmp .box .t{
+  margin: 0;
+  padding: 0;
+  opacity: 50%;
+}
+
+/*for comment section*/
+.comments{
+  height: 50em;
+  background-color: #f2f1fa; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20em 0 20em;
+}
+
+.photo{
+  padding-top: 5em;
+  padding-left: 2em;
+  opacity: 75%;
+  height: 95px;
+  width: auto;
+}
+
+.s{
+  font-size: 40px;
+  text-align: center;
+}
+
+.by{
+  font-size: 14px;
+}
+
+.comments .comment{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.comments .comment .right{
+  font-size: 100px;
+  padding: 62px 0 0 60px;
+  color: darkblue;
+}
+
+.comments .comment .left{
+  font-size: 100px;
+  padding: 62px 60px 0 0;
+  color: darkblue;
+}
+
+.comments .comment .bahadur{
+  height: 18em;
+  width: 50em;
+  background-color: white;
+  overflow: hidden;
+}
+
+.comments .comment .bahadur .name{
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.comments .comment .bahadur .name .date{
+  opacity: 50%;
+  font-size: 14px;
+}
+
+.comments .comment .bahadur .star{
+  text-align: center;
+  margin-top: -20px;
+}
+
+.comments .comment .bahadur .star span{
+  color: #ffc107;
+  font-size: 20px;
+}
+
+.c{ /*.comments .comment .bahadur */
+  text-align: center;
+  font-size: 14px;
+  padding: 12px 0 15px 0;
+}
+
+/*latest news section*/
+.section{
+  height: 55em;
+  background-color: #fff; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20em 0 20em;
+}
+
+.section .s{
+  padding-top: 2.5em;
+}
+
+.section .news {
+  height: 28em;
+  width: 100em;
+  background-color: transparent;
+  margin-bottom: 2.5em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section .news .n1,.n2,.n3{
+  height: 28em;
+  width: 28em;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  overflow: hidden;
+}
+
+.section .news .n1{
+  background-image: url(images/graph.jpg);
+}
+
+.section .news .n2{
+  background-image: url(images/online.jpg);
+}
+
+.section .news .n3{
+  background-image: url(images/team.jpg);
+}
+
+.container{
+  margin-top: 318px;
+  padding: 0 0 15px 30px;
+  background: linear-gradient(to top, rgb(0 0 0 / 45%), rgb(255 255 255 / 0%));
+}
+
+.container .profile{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.section .bt{
+  margin-bottom: 3em;
+}
+
+.paddi{
+  padding: 0 30px 30px 0;
+}
+
+/*for form section*/
+.messageus{
+  height: 45em;
+  background-color: #f2f1fa; 
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.messageus .form{
+  height: 40em;
+  width: 55em;
+  background-color: rgb(0 0 255 / 49%);
+}
+
+form {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 69px 0 0 60px;
+}
+      
+input[type="text"], input[type="email"], textarea {
+  width: 85%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: transparent;
+  color: white;
+}
+      
+input[type="submit"] {
+  background-color: white;
+  color: blue;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+      
+/*footer section*/
+.footer{
+  height: 15em;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5em 10em 0 10em;
+  color: white;
+}
+
+.social .build{
+  padding-top: 10px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 45px 0 0;
+}
+
+.footer .wc .website{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-right: 100px;
+}
+
+.footer .wc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .wc .website li a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer .wc .website li{
+  margin-bottom: 4px;
+}
+
+.footer .wc .contact{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer .wc .contact li a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer .wc .contact li{
+  margin-bottom: 8px;
+}
+
+.footer-icon {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.footer-icon p{
+  padding-left: 15px;
+  margin: 0;
+  font-size: 12px;
+}

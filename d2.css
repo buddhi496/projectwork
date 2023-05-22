@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section1 */
+.wrapper{
+    background-image: url("images/bi.jpg");
+    background-size: cover;
+    border-radius: 0 0 0 120px;
+}
+
+.nav{
+    border-bottom: 0.2px solid rgb(252, 252, 252);
+}
+
+.fb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    flex: 1;
+    border-right: 1px solid ;
+    padding: 10px 40px 10px 0;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 10;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.menu a:nth-child(1){
+    color: red;
+}
+
+.resp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar{
+    padding-left: 40px;
+    gap: 30px;
+}
+
+.search{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid rgb(213, 191, 191);
+    align-items: center;
+    font-size: 1px;
+}
+
+i{
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    height: 45px;
+    width: 170px;
+    border-radius: 0 20px 20px 20px;
+    color: rgb(164, 14, 14);
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.center{
+    margin: auto;
+}
+
+.contact a{
+    color: rgb(164, 14, 14);
+    font-size: 14px;
+}
+
+.sc{
+    gap: 15px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 120px 0 250px 100px;
+}
+
+.c{
+    color: white;
+}
+
+.main .h1{
+    font-size: 75px;
+}
+
+.main .p{
+    font-size: 16px;
+}
+
+.main .get{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: #f64867;
+    width: 280px;
+    border-radius: 0 25px 25px 25px;
+}
+
+.main .get p{
+    margin: auto;
+}
+
+/* section 2 */
+
+.body{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    /* background-color: #f64867; */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.side{
+    flex: 1 1 400px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    align-content: center;
+    padding-left: 60px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(236, 185, 185);
+    color: #f64867;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.p2{
+    opacity: 70%;
+}
+
+.p3{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #f64867;
+    width: 152px;
+    border-radius: 0 25px 25px 25px;
+}
+
+.p3 p{
+    margin: auto;
+    color: white;
+}
+
+/* section 3 */
+
+.right1 img{
+    width: 100%;
+    border-radius: 0 100px 100px 100px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lists a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* section4 */
+.services{
+    background-color: azure;
+    padding: 100px 0;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+} 
+.service{
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.service .heading{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.service .sep{
+    gap: 40px;
+}
+
+.service .slist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.slist .list{
+    gap: 10px;
+}
+
+.list .icn i{
+    font-size: 35px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    color: #f64867;
+}
+
+.list .title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.list .desc{
+    opacity: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
